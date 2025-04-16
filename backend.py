@@ -89,9 +89,6 @@ def summarize_prompt(patient_data, diagnosis_research, user_prompt=None):
     and a description of the course of the hospital stay, paying careful consideration to the order
     and timing of different aspects of treatment. 
 
-    You should be sure to include any relevant information to the diagnosis and stay at the hospital,
-    including specific procedures and tests/test outcomes.
-
     Do not include any sections of information if it is not given. Do not include additional notes regarding limitations of data or this being for instructional purposes.
     
     Patient Data: {patient_data}

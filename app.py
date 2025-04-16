@@ -55,4 +55,5 @@ if uploaded_file is not None:
             st.markdown(f"<div class='report-container'>{summary}</div>", unsafe_allow_html=True)
 
     except Exception as e:
-        st.markdown(f"### Patient name unable to be extracted. Try uploading a new file.")
+        st.markdown(f"{e}")
+        st.markdown(f"### An error occurred. Try uploading a new file.")
