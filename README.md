@@ -2,7 +2,7 @@
 
 This Streamlit-based web application uses OpenAI's GPT-4 to automatically generate detailed patient discharge summaries from JSON-formatted patient data.
 
-## 📄 Project Overview
+## Project Overview
 
 This project was developed for a class assignment to demonstrate the integration of large language models (LLMs) in healthcare applications. Sample patient data is provided in `.json` format and is uploaded through the Streamlit interface.
 
@@ -14,7 +14,7 @@ The app:
 
 ---
 
-## 🚀 Features
+## Features
 
 - Upload patient data in JSON format
 - Automatically extract patient name
@@ -27,7 +27,7 @@ The app:
 
 ---
 
-## 🗂 File Structure
+## File Structure
 
 ```
 ├── app.py                 # Main Streamlit app
@@ -41,7 +41,7 @@ The app:
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.8+
 - Streamlit
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔐 Setup Instructions
+## Setup Instructions
 
 1. Clone the repository.
 2. Create a file named `credentials.json` in the project root with the following format:
@@ -76,7 +76,7 @@ streamlit run app.py
 
 ---
 
-## 📁 Example Input Format
+## Example Input Format
 
 The uploaded `.json` file must include at least:
 
@@ -98,7 +98,7 @@ More fields are used by the language model but can vary.
 
 ---
 
-## ⚙️ Logging
+## Logging
 
 All prompt interactions are logged in `interactions.log`, including:
 - Research prompts
@@ -107,20 +107,20 @@ All prompt interactions are logged in `interactions.log`, including:
 
 ---
 
-## 🧠 Powered By
+## Powered By
 
 - [OpenAI GPT-4](https://platform.openai.com/)
 - [Streamlit](https://streamlit.io/)
 
 ---
 
-## ✍️ Authors
+## Authors
 
 Developed as part of a Spring 2025 AI course at Carnegie Mellon University.
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Only meant for local deployment.
 - For demonstration purposes only — not for use in actual clinical environments.
