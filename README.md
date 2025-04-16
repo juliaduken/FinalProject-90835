@@ -9,7 +9,7 @@ This project was developed for a class assignment to demonstrate the integration
 The app:
 - Extracts the patient name and diagnosis
 - Uses GPT-4 to research relevant clinical information for the diagnosis
-- Generates a tailored discharge summary
+- Generates a tailored discharge summary based on provided patient data
 - Optionally incorporates user instructions (e.g., "focus on mental health")
 
 ---
