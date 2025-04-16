@@ -80,9 +80,8 @@ def summarize_prompt(patient_data, diagnosis_research, user_prompt=None):
     prompt = f"""
     You will receive a .json file containing patient data. 
 
-    Data: {patient_data}
     Your task is to use this above data to write a thorough discharge summary. 
-
+    
     You should be sure to include all of the following information, if available:
     {diagnosis_research}
 
@@ -94,7 +93,9 @@ def summarize_prompt(patient_data, diagnosis_research, user_prompt=None):
     including specific procedures and tests/test outcomes.
 
     Do not include any sections of information if it is not given. Do not include additional notes regarding limitations of data or this being for instructional purposes.
-
+    
+    Patient Data: {patient_data}
+    
     Additionally, consider the following instructions if available (will display "None" if not available)
     Additional information: {user_prompt}
     """ 
