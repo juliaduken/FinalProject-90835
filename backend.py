@@ -95,7 +95,7 @@ def summarize_prompt(patient_data, diagnosis_research, user_prompt=None):
 
     Do not include any sections of information if it is not given. Do not include additional notes regarding limitations of data or this being for instructional purposes.
 
-    Additionally, consider the following instructions if available. If None, process as is.
+    Additionally, consider the following instructions if available (will display "None" if not available)
     Additional information: {user_prompt}
     """ 
 
