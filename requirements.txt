@@ -1,0 +1,4 @@
+openai==1.12.0
+streamlit
+httpx==0.27.2
+logging

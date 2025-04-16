@@ -1,0 +1,4 @@
+venv/
+/credentials.json
+/interactions.log
+__pycache__/
