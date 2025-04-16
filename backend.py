@@ -78,8 +78,7 @@ def summarize_prompt(patient_data, diagnosis_research, user_prompt=None):
     client = OpenAI(api_key=openai_api_key)
     
     prompt = f"""
-    You will receive a .json file containing patient data. This JSON file used to be longer,
-    but I extracted all the relevant fields for a discharge summary.
+    You will receive a .json file containing patient data. 
 
     Data: {patient_data}
     Your task is to use this above data to write a thorough discharge summary. 
